@@ -1,1 +1,8 @@
-export const myPackage = (taco = ''): string => `${taco} from my package`;
+export const getPictureUrl = (
+  apiUrl: string,
+  collectionId: string,
+  productId: string,
+  picture: string
+): string => {
+  return `${apiUrl}/api/files/${collectionId}/${productId}/${picture}`;
+};

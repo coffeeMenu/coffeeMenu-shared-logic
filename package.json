@@ -1,8 +1,9 @@
 {
-  "name": "typescript-npm-package-template",
-  "version": "0.0.0-development",
-  "description": "A template for creating npm packages using TypeScript and VSCode",
+  "name": "coffeemenu-shard-logic",
+  "version": "0.0.0",
+  "description": "",
   "main": "./lib/index.js",
+  "private": "true",
   "files": [
     "lib/**/*"
   ],
@@ -19,28 +20,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ryansonshine/typescript-npm-package-template.git"
+    "url": "git+https://github.com/coffeeMenu/coffeeMenu-shared-logic"
   },
   "license": "MIT",
   "author": {
-    "name": "Ryan Sonshine",
-    "email": "ryansonshine@users.noreply.github.com",
-    "url": "https://github.com/ryansonshine"
+    "name": "karim",
+    "email": "imkarimkarim@pm.me",
+    "url": "https://github.com/imkarimkarim"
   },
   "engines": {
     "node": ">=12.0"
   },
-  "keywords": [
-    "boilerplate",
-    "template",
-    "typescript",
-    "vscode",
-    "jest",
-    "husky",
-    "commitizen",
-    "semantic-release",
-    "codecov"
-  ],
   "bugs": {
     "url": "https://github.com/ryansonshine/typescript-npm-package-template/issues"
   },
