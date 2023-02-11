@@ -1,4 +1,8 @@
-## Getting Started
+# coffeeMenu-shared-logic
 
-just clone this repo and run `yarn build`  
-we will use it in `front` and `dashboard`
+## getting started
+
+1) clone this repo
+2) `cd coffeeMenu-shared-logic`
+3) run: `pnpm i`
+4) run: `yarn build`
